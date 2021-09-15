@@ -1,17 +1,23 @@
 
       <div class="wrapper fadeInDown">
         <div id="formContent">
-          
+          <a [routerLink]="['/register']"></a>
       
          
           
-          <form>
+          <form method="GET" >
+          
             <input type="text" id="login"  name="login" placeholder="login">
-            <input type="text" id="password"  name="login" placeholder="password">
-            <input type="submit"  value="Log In" href="">
-            <input type="button" value="Register" href="src/app/components/register">
+            <input type="password" id="password"  name="login" placeholder="password">
+            <input type="reset"  value="Log In"><br>
           </form>
-      
+          <form method="GET" >
+          
+            <input type="text" id="username"  name="login" placeholder="username">
+            <input type="password" id="password"  name="login" placeholder="password">
+            <input type="password" id="password"  name="login" placeholder="confirm password">
+            <input type="submit"  value="Register"><br>
+          </form>
      
   
    
