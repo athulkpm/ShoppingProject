@@ -7,6 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { FilterComponent } from './components/shopping-cart/filter/filter.component';
 import { ProductItemComponent } from './components/shopping-cart/product-item/product-item.component';
+import { CartItemComponent } from './components/shopping-cart/cart/cart-item/cart-item.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,9 @@ import { ProductItemComponent } from './components/shopping-cart/product-item/pr
     ShoppingCartComponent,
     FilterComponent,
     ProductItemComponent,
+    CartItemComponent,
+
+   
   
    
   ],

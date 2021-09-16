@@ -4,7 +4,7 @@
     <div class="card-body">
         <h5 class="card-title">{{productItem.name}}<span style="float:right"><b>{{productItem.price}} Rs</b></span></h5>
         <p class="card-text">{{productItem.description}}</p>
-        <button class="btn btn-outline-success">Add To Cart</button>
+        <button class="btn btn-outline-success" (click)="addToCart(productItem)">Add To Cart</button>
        </div>
 </div>
 <br>
