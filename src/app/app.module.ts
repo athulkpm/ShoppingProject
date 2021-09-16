@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { FilterComponent } from './components/shopping-cart/filter/filter.component';
+import { ProductItemComponent } from './components/shopping-cart/product-item/product-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     ShoppingCartComponent,
+    FilterComponent,
+    ProductItemComponent,
   
    
   ],
